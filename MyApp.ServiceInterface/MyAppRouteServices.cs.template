@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using ServiceStack;
+
+// This is code generated from MyAppRouteServices.cs.template
+// and is rendered when "npm run build", you can find the render code specifically in next.config.js
+namespace MyApp.ServiceInterface
+{
+
+    <% for (let i=0; i<dotnetRoutes.length; i++) { %>
+    [Route("<%= dotnetRoutes[i].route %>", Matches="AcceptsHtml")]
+    public class AppRoute<%= i %>Request {
+        <% for (let param of dotnetRoutes[i].params) { %>
+        public string <%= param.param %> { get; set; }
+        <% } %>
+    }
+    <% } %>
+
+    public class AppRouteService : Service
+    {
+        <% for (let i=0; i<dotnetRoutes.length; i++) { %>
+        public object Any(AppRoute<%= i %>Request request) => Request.GetPageResult("<%= dotnetRoutes[i].page %>.html");
+        <% } %>
+    }
+}
