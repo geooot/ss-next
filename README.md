@@ -8,7 +8,7 @@
 
     $ dotnet tool install -g x
 
-    $ APP_SOURCE_TEMPLATES=geooot x new ss-next <your app name>
+    $ x new geooot/ss-next <your app name>
 
 ## Description
 
