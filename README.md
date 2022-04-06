@@ -2,7 +2,7 @@
 
 .NET 5.0 Next.js App Template
 
-![](https://og-image.vercel.app/.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=https%3A%2F%2Fdocs.servicestack.net%2Fimages%2Fsvg%2Fservicestack.svg)
+![](https://og-image.vercel.app/.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=https%3A%2F%2Fservicestack.net%2Fimages%2Flogo-only.png)
 
 > Browse [source code](https://github.com/geooot/ss-next) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
 
